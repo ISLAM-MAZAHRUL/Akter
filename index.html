@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+
+  <link rel="stylesheet" href="ak.css">
+  <script src="ak.js" defer></script>
+</head>
+
+<body>
+
+<!-- ================= HOME PAGE ================= -->
+<div id="home" class="page active">
+  <div class="home-inner">
+
+    <div class="avatar">
+      <img src="image/rana.jpg" style="width:100%; height:100%; object-fit:cover; border-radius:50%;">
+    </div>
+
+    <div class="home-name">Rana Akter Hossain</div>
+    <div class="home-tagline">IT & Design Graduate · Bangladesh → Tokyo, Japan</div>
+
+    <div class="nav-grid">
+
+      <div class="nav-card" onclick="show('about')">
+        <div class="icon">👤</div>
+        <span>About Me</span>
+      </div>
+
+      <div class="nav-card" onclick="show('education')">
+        <div class="icon">🎓</div>
+        <span>Education</span>
+      </div>
+
+      <div class="nav-card" onclick="show('skills')">
+        <div class="icon">💻</div>
+        <span>Skills</span>
+      </div>
+
+      <div class="nav-card" onclick="show('career')">
+        <div class="icon">💼</div>
+        <span>Career</span>
+      </div>
+
+      <div class="nav-card" onclick="show('hobbies')">
+        <div class="icon">🎨</div>
+        <span>Hobbies & Interests</span>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- ================= ABOUT PAGE ================= -->
+<div id="about" class="page">
+  <div class="inner">
+    <div class="back-btn" onclick="show('home')">← Back</div>
+
+    <h2 class="page-title"><span class="dot"></span> About Me</h2>
+
+    <div class="card">
+      <div class="card-title">Who Am I?</div>
+      <div class="card-sub">
+        My name is Rana Akter Hossain, born on January 1, 1998, in Bangladesh.  
+        I currently live in Higashi-Jujo, Kita-ku, Tokyo (〒114-0001).  
+        I am studying Business IT & Design at Digital Arts Tokyo and will graduate in 2026.  
+        I speak Bengali (native), Japanese (JLPT N2), and English.  
+        I am hardworking, motivated, and always eager to learn new things.  
+        I enjoy working with people, improving my skills, and contributing to team success.  
+        My goal is to work in a Japanese company and contribute through IT, design, and teamwork.
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Contact Information</div>
+      <div class="card-sub">
+        Address: 東京都北区東十条5−2−9 チェルシーハイツ東十条201<br>
+        Phone: 080-9320-6475<br>
+        Email: akterhossen14@gmail.com
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- ================= EDUCATION PAGE ================= -->
+<div id="education" class="page">
+  <div class="inner">
+    <div class="back-btn" onclick="show('home')">← Back</div>
+
+    <h2 class="page-title"><span class="dot"></span> Education</h2>
+
+    <div class="card">
+      <div class="card-title">GOPALPUR S. A. HIGH SCHOOL</div>
+      <div class="card-sub">Graduated — 2014</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">JUNARPUR ADARSHA COLLEGE</div>
+      <div class="card-sub">2014 – 2016</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">DHAKA COLLEGE</div>
+      <div class="card-sub">2017 – 2020</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">東京中央日本語学院</div>
+      <div class="card-sub">2022 – 2024</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Nakano School of Business, IT Design Business Department</div>
+      <div class="card-sub">2024 – 2026</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">CAD専門学校</div>
+      <div class="card-sub">2026 – 2028</div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- ================= SKILLS PAGE ================= -->
+<div id="skills" class="page">
+  <div class="inner">
+    <div class="back-btn" onclick="show('home')">← Back</div>
+
+    <h2 class="page-title"><span class="dot"></span> Skills</h2>
+
+    <div class="skill-item">
+      <div class="skill-top">
+        <span>Photoshop</span>
+        <span class="skill-pct">90%</span>
+      </div>
+      <div class="skill-track">
+        <div class="skill-fill" data-w="90"></div>
+      </div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-top">
+        <span>Illustrator</span>
+        <span class="skill-pct">85%</span>
+      </div>
+      <div class="skill-track">
+        <div class="skill-fill" data-w="85"></div>
+      </div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-top">
+        <span>Excel</span>
+        <span class="skill-pct">80%</span>
+      </div>
+      <div class="skill-track">
+        <div class="skill-fill" data-w="80"></div>
+      </div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-top">
+        <span>Japanese (JLPT N2)</span>
+        <span class="skill-pct">75%</span>
+      </div>
+      <div class="skill-track">
+        <div class="skill-fill" data-w="75"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- ================= CAREER PAGE ================= -->
+<div id="career" class="page">
+  <div class="inner">
+    <div class="back-btn" onclick="show('home')">← Back</div>
+
+    <h2 class="page-title"><span class="dot"></span> Career</h2>
+
+    <div class="card">
+      <div class="card-title">FamilyMart</div>
+      <div class="card-sub">May 2022 – March 2023</div>
+      <div class="card-date">Cashier, Stocking, Customer Service</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">7-Eleven</div>
+      <div class="card-sub">May 2023 – Present</div>
+      <div class="card-date">Cashier, Stocking, Customer Service</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Japanese Izakaya</div>
+      <div class="card-sub">May 2024 – Present</div>
+      <div class="card-date">Kitchen & Hall Staff</div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- ================= HOBBIES PAGE ================= -->
+<div id="hobbies" class="page">
+  <div class="inner">
+    <div class="back-btn" onclick="show('home')">← Back</div>
+
+    <h2 class="page-title"><span class="dot"></span> Hobbies & Interests</h2>
+
+    <div class="card">
+      <div class="card-title">Soccer</div>
+      <div class="card-sub">I enjoy playing and watching soccer.</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Music</div>
+      <div class="card-sub">Listening to music helps me relax.</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Graphic Design</div>
+      <div class="card-sub">I love editing photos and creating designs.</div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
